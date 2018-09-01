@@ -1,6 +1,6 @@
 {
   "name": "memejsfork",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the best memes with ease! [A fork of Nuno135/memejs]",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shadowolfyt/memejs/issues"
   },
-  "homepage": "https://github.com/shadowolfyt/memejs#readme"
+  "homepage": "https://github.com/shadowolfyt/memejs#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
