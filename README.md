@@ -1,15 +1,25 @@
 # memejs
 Get the best memes with ease!
+This npm module is a fork of (this)[https://github.com/shadowolfyt/memejs] repository.
 
 ## Installation
 ```bash
 npm install memejs
 ```
 
+## Current Subreddits
+```
+crappydesign
+dankmemes
+me_irl
+wholesomememes
+memeeconomy
+```
+
 ## Usage
 To get the full JSON output:
 ```js
-var meme = require('memejs');
+const meme = require('memejs');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -18,7 +28,7 @@ meme(function(data, err) {
 ```
 To get the meme title:
 ```js
-var meme = require('memejs');
+const meme = require('memejs');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -27,7 +37,7 @@ meme(function(data, err) {
 ```
 To get the meme url:
 ```js
-var meme = require('memejs');
+const meme = require('memejs');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -36,7 +46,7 @@ meme(function(data, err) {
 ```
 To get the author:
 ```js
-var meme = require('memejs');
+const meme = require('memejs');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -45,7 +55,7 @@ meme(function(data, err) {
 ```
 to get the subreddit:
 ```js
-var meme = require('memejs');
+const meme = require('memejs');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -54,7 +64,7 @@ meme(function(data, err) {
 ```
 To get the time the meme was created:
 ```js
-var meme = require('memejs');
+const meme = require('memejs');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -63,7 +73,7 @@ meme(function(data, err) {
 ```
 To get the UTC time the meme was created:
 ```js
-var meme = require('memejs');
+const meme = require('memejs');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -72,18 +82,10 @@ meme(function(data, err) {
 ```
 To filter subreddits:
 ```js
-var meme = require('memejs');
+const meme = require('memejs');
 
 meme('crappydesign', function(data, err) {
   if (err) return console.error(err);
   console.log(data);
 });
-```
-Possible subreddits to filter are:
-```
-crappydesign
-dankmemes
-me_irl
-wholesomememes
-memeeconomy
 ```

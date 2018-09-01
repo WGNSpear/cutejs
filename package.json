@@ -1,0 +1,19 @@
+{
+  "name": "memejsfork",
+  "version": "1.0.1",
+  "description": "Get the best memes with ease! [A fork of Nuno135/memejs]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowolfyt/memejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadowolfyt/memejs/issues"
+  },
+  "homepage": "https://github.com/shadowolfyt/memejs#readme"
+}
