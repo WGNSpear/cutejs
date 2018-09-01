@@ -11,7 +11,14 @@ var meme = function(sr, callback) {
         'https://www.reddit.com/r/OffensiveMemes/',
         'https://www.reddit.com/r/cringepics/',
         'https://www.reddit.com/r/Unexpected/',
-        'https://www.reddit.com/r/memes/'
+        'https://www.reddit.com/r/memes/',
+        'https://www.reddit.com/r/technicallythetruth/',
+        'https://www.reddit.com/r/2meirl4meirl/',
+        'https://www.reddit.com/r/ShittyLifeProTips/',
+        'https://www.reddit.com/r/AnAttemptWasMade/',
+        'https://www.reddit.com/r/facepalm/',
+        'https://www.reddit.com/r/iamverysmart/',
+        'https://www.reddit.com/r/quityourbullshit/'
     ];
 
     var opts = [
@@ -23,7 +30,14 @@ var meme = function(sr, callback) {
         'OffensiveMemes',
         'cringepics',
         'Unexpected',
-        'memes'
+        'memes',
+        'technicallythetruth',
+        '2meirl4meirl',
+        'ShittyLifeProTips',
+        'AnAttemptWasMade',
+        'facepalm',
+        'iamverysmart',
+        'quityourbullshit'
     ];
 
     var url;

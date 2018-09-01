@@ -18,6 +18,13 @@ OffensiveMemes
 cringepics
 Unexpected
 memes
+technicallythetruth
+2meirl4meirl
+ShittyLifeProTips
+AnAttemptWasMade
+facepalm
+iamverysmart
+quityourbullshit
 ```
 
 ## Usage
