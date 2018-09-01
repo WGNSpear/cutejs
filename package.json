@@ -1,6 +1,6 @@
 {
   "name": "memejsfork",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get the best memes with ease! [A fork of Nuno135/memejs]",
   "main": "index.js",
   "scripts": {
