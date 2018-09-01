@@ -4,7 +4,7 @@ This npm module is a fork of (this)[https://github.com/shadowolfyt/memejs] repos
 
 ## Installation
 ```bash
-npm install memejs
+npm install memejsfork --save
 ```
 
 ## Current Subreddits
@@ -23,7 +23,7 @@ memes
 ## Usage
 To get the full JSON output:
 ```js
-const meme = require('memejs');
+const meme = require('memejsfork');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -32,7 +32,7 @@ meme(function(data, err) {
 ```
 To get the meme title:
 ```js
-const meme = require('memejs');
+const meme = require('memejsfork');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -41,7 +41,7 @@ meme(function(data, err) {
 ```
 To get the meme url:
 ```js
-const meme = require('memejs');
+const meme = require('memejsfork');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -50,7 +50,7 @@ meme(function(data, err) {
 ```
 To get the author:
 ```js
-const meme = require('memejs');
+const meme = require('memejsfork');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -59,7 +59,7 @@ meme(function(data, err) {
 ```
 to get the subreddit:
 ```js
-const meme = require('memejs');
+const meme = require('memejsfork');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -68,7 +68,7 @@ meme(function(data, err) {
 ```
 To get the time the meme was created:
 ```js
-const meme = require('memejs');
+const meme = require('memejsfork');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -77,7 +77,7 @@ meme(function(data, err) {
 ```
 To get the UTC time the meme was created:
 ```js
-const meme = require('memejs');
+const meme = require('memejsfork');
 
 meme(function(data, err) {
   if (err) return console.error(err);
@@ -86,7 +86,7 @@ meme(function(data, err) {
 ```
 To filter subreddits:
 ```js
-const meme = require('memejs');
+const meme = require('memejsfork`');
 
 meme('crappydesign', function(data, err) {
   if (err) return console.error(err);
