@@ -13,7 +13,11 @@ crappydesign
 dankmemes
 me_irl
 wholesomememes
-memeeconomy
+blackmagicfuckery
+OffensiveMemes
+cringepics
+Unexpected
+memes
 ```
 
 ## Usage
